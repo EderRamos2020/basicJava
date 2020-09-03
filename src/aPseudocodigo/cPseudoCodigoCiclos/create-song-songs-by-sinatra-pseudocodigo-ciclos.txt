@@ -1,0 +1,10 @@
+create299Song()
+{
+    number_song=1
+
+   while(number_song <= 299)
+   {
+        crearCancion()
+        number_song + 1
+   }
+}

@@ -1,0 +1,13 @@
+buscar10Articulos()
+{
+  cont=0
+
+  while(cont<=10)
+  {
+        buscarArticulo()
+        cont=cont+1
+  }
+
+
+
+}

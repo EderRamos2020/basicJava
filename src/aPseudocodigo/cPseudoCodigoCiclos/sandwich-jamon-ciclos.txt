@@ -1,0 +1,9 @@
+hacer5sandwiches()
+{
+    numeroSandwiches=0
+    while(numeroSandwiches < 5 )
+    {
+       hacerSandwichesJamon()
+       numeroSandwiches + 1
+    }
+}

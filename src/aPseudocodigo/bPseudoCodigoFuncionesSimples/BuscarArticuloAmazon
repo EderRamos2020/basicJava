@@ -1,6 +1,43 @@
 
-IngresarAmazon()
+buscarArticuloAmazon()
 {
-   cargar la pagina web
-   log in en la pagina web
+   navegarPagina()
+   validarCargarPagina()
+   hacerBusquedaArticulo()
+   validarArticulos()
+
+
 }
+
+    navegarPagina(){
+
+    abrir el navegador
+    digitar la url
+    dar enter
+
+    }
+
+    validarCargarPagina(){
+
+    validar que la url este bien escrita
+    validar que la pagina web muestre el encabezado
+    validar que la web muestre el logo e imagenes
+
+    }
+
+    hacerBusquedaArticulo(){
+
+    validar el buscador
+    digitar el articulo en el buscador
+    seleccionar el boton
+    verificar que se muestre las imagenes de los articulo
+
+    }
+
+    validarArticulos()
+    {
+    verificar que se muestren las imagenes de los articulos
+    verificar que se muestres las referencias de los articulossssss
+    }
+
+
