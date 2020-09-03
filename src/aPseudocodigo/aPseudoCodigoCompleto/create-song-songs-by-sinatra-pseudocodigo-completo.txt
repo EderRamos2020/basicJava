@@ -1,0 +1,27 @@
+inicio
+
+a=user
+b=pass
+t=title
+l=length
+f=fecha
+l=lirycs
+
+AbrirNavegador()
+    digitar la url de songs by sinatra
+    esperar que cargue la pagina web
+
+seleccionarlogin()
+    ingresar a
+    ingresar b
+    clic en el boton ingresar
+
+SelecconarSongs()
+    seleccionar create song
+    ingresar t
+    ingresar l
+    ingresar f
+    ingresar l
+    clic crear
+
+fin

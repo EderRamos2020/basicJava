@@ -1,0 +1,6 @@
+
+IngresarAmazon()
+{
+   cargar la pagina web
+   log in en la pagina web
+}
