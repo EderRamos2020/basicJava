@@ -31,7 +31,7 @@ public class BotellaAgua
     {
         while (n < 1 )
         {
-            System.out.println("digite el tiempo en la ducha ");
+            System.out.println("digite el tiempo en la ducha ahora ");
             n=Input.get_int();
 
         }
