@@ -27,7 +27,8 @@ public class BotellaAgua
 
     }
 
-    private static int getpositive ()
+    //public static int getpositive ()
+    private static int getpositive()
     {
         while (n < 1 )
         {

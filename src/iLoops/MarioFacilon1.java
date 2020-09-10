@@ -7,10 +7,12 @@ import libs.Input;
 public class MarioFacilon1 {
 
      //private static int altura=10;
+     static int n;
 
 
     public static void main(String[] args) {
-        int altura = 10;
+        //int altura = 10;
+        int altura= getpositive();
         int renglon = 1;
         while(renglon <= altura) {
             int numGatos = renglon ;
@@ -64,6 +66,28 @@ public class MarioFacilon1 {
             Input.print(" ");
             numEspActDer++;
         }
+    }
+
+    public static int getpositive()
+    {
+
+        while(n<1)
+        {
+            System.out.println("Digite la altura : ");
+            n = Input.get_int();
+        }
+        return n;
+
+    }
+    //private
+    public static int getnegative()
+    {
+        while(n > -1)
+        {
+            System.out.println("Digite el numero negativo: ");
+            n=Input.get_int();
+        }
+        return n ;
     }
 
 
