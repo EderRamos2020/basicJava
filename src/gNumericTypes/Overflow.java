@@ -7,7 +7,7 @@ public class Overflow {
 		int n = 1;
 	    for (int i = 0; i < 64; i++)
 	    {
-	    	System.out.print("dato : " + i + "  n: " + n + "\n");
+	    	System.out.print(" i: " + i + "  n: " + n + "\n");
 	        n = n * 2;
 	    }
 	}
