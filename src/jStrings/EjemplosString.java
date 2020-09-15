@@ -16,24 +16,30 @@ public class EjemplosString {
 		
 		Input.print("La frase '" + s + "' contiene 'Selenium'? " + s.contains("Selenium") + "\n");
 		Input.print("La frase '" + s + "' comienza con 'Selenium'? " + s.startsWith("Selenium") + "\n");
-		Input.print("La frase '" + s + "' comienza con 'Selenium'? " + s.endsWith("Selenium") + "\n");
+		Input.print("La frase '" + s + "' finaliza con 'Selenium'? " + s.endsWith("Selenium") + "\n");
 
 		String b = "boo:and:foo";
 		Input.print(b.split(":"));
-		
+
 		String c = "   Hola    ";
 		Input.print(c + "\n");
 		Input.print(c.trim() + "\n");
 		
 		Input.print("Input your name: ");
-		String nombre = Input.get_string();
-		Input.print(nombre + "\n");
-		String name = "Pedro Perez";
+		String name = Input.get_string();
+		Input.print(name + "\n");
+		//String name = "Pedro:Perez";
 		name.length();
 		name.contains("Pedro");
 		name.startsWith("Pedro");
 		name.endsWith("Perez");
 		name.split(" ");
+		Input.print(name.length() + "\n");
+		Input.print(name.contains("Pedro") + "\n");
+		Input.print(name.startsWith("Pedro") + "\n");
+		Input.print(name.endsWith("Perez") + "\n");
+		Input.print(name.split(" ") );
+
 
 
 	}

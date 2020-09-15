@@ -19,8 +19,8 @@ public class MarioFacilon1 {
             imprimirEspacios(altura, numGatos);
             imprimirGatos(numGatos);
             Input.print("  ");
-            imprimirGatosDerecha(numGatos);
-            imprimirEspaciosDerecha(altura, numGatos);
+            imprimirGatos(numGatos);
+            //10imprimirEspaciosDerecha(altura, numGatos);
             System.out.println();
             renglon++;
         }
