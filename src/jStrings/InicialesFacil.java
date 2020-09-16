@@ -9,8 +9,10 @@ public class InicialesFacil {
         System.out.println("Verifique las iniciales de su nombre ");
         String name=Input.get_string();
         int cantTot =name.length();
+        Input.print("longitud: " + cantTot + "\n");
         int i=0;
-        System.out.println("Letra inicial : " + name.charAt(i));
+        System.out.println(name.charAt(i));
+
 /*
         for( i=1 ; i<cantTot ; i++)
         {
@@ -22,19 +24,21 @@ public class InicialesFacil {
 
         }
 */
-        for(i=0; i<cantTot; i++)
+        for(i=0; i<=cantTot-1; i++)
         {
             if (name.charAt(i) >= 'A' && name.charAt(i) <= 'Z')
             {
-                Input.print("Mayuscula : " + name.charAt(i) + "\n");
+                Input.print("Mayus: " + name.charAt(i) + "\n");
 
-            }else if  (name.charAt(i) == ' ')
+            }
+            else if  (name.charAt(i) == ' ')
                 {
                     char carIni = name.charAt(i + 1);
-                    Input.print("Letra inicial : " + carIni+ "\n");
+                    Input.print(carIni + "\n");
                 }
 
         }
         Input.print(name.split(" ") );
+
      }
 }
