@@ -3,7 +3,7 @@ package jStrings;
 public class Escalera{
 
     public static void main(String[] args) {
-        int altura = 3;
+        int altura = 5;
         int numeroRenglon = 0;
 
         while(numeroRenglon <= altura) {
