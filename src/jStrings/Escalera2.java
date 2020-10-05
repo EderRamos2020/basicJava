@@ -24,6 +24,7 @@ public class Escalera2 {
 
     }
 
+    
     public static void numeros(int renglon)
     {
         int cant=1;
