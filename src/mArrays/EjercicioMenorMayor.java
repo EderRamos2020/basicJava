@@ -25,22 +25,22 @@ public class EjercicioMenorMayor {
             result =  result + replica[i];
         }
         System.out.println();
-        Input.print("total string " + result );
+        Input.print("total string " + result + "\n");
 
 
         //Ejercicio de hallar el menor
         int[] num = {6,5,4,9,8,7,3,2,10};
-        int var = num[0];
+        int min = num[0];
 
         for(int i=0; i<num.length; i++)
         {
-            if (num[i] < var)
+            if (num[i] < min)
             {
-                var = num[i];
+                min = num[i];
             }
 
         }
-        System.out.println("El numero menor es " + var);
+        System.out.println(" El numero menor es " + min);
 
         //Ejercicio de hallar el mayor
         int max =0;
