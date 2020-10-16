@@ -34,10 +34,12 @@ public class MinutosSegundos {
             {
 
                 minutos1Num = Integer.parseInt(minutos1);
+                break;
             }
 
         }
         int segundosParciales = minutos1Num * 60;
+
 
 
         int pos = dura.indexOf(":");
