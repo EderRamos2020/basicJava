@@ -1,6 +1,7 @@
 package jStrings;
 
 import libs.Input;
+import mArrays.Factorial;
 
 public class EjemplosString {
 
@@ -39,6 +40,7 @@ public class EjemplosString {
 		Input.print(name.startsWith("Pedro") + "\n");
 		Input.print(name.endsWith("Perez") + "\n");
 		Input.print(name.split(" ") );
+
 
 
 

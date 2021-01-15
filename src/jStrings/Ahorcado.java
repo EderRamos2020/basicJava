@@ -1,7 +1,6 @@
 package jStrings;
 
 import libs.Input;
-
 import java.util.Random;
 
 public class Ahorcado {
@@ -27,5 +26,6 @@ public class Ahorcado {
             System.out.println("Ups... perdiste!!");
         }
 
+        double z =Input.get_double("dato");
     }
 }

@@ -4,7 +4,7 @@ import libs.Input;
 public class OrdenarMenorMayor {
 
     static int[] valores;
-    static int[] result;
+    static int[] resulta;
 
 
     public static void main(String[] args)
@@ -12,7 +12,7 @@ public class OrdenarMenorMayor {
 
         int tam = Input.get_int("Digite el tamaño del Array ");
          valores = new int[tam];
-         result =new int[tam];
+         resulta =new int[tam];
          int max1;
 
         for (int i=0; i<valores.length; i++)
@@ -43,7 +43,7 @@ public class OrdenarMenorMayor {
         int min1;
         int min;
 
-        for(int a=0; a<result.length; a++)
+        for(int a=0; a<resulta.length; a++)
         {
             min = max;
             for (int i = 0; i < valores.length; i++)
@@ -56,8 +56,8 @@ public class OrdenarMenorMayor {
                     valores[i] = min1;
                 }
             }
-            result[a] = min;
-            Input.print( result[a] + " ");
+            resulta[a] = min;
+            Input.print( resulta[a] + " ");
         }
 
     }
