@@ -11,6 +11,7 @@ public class ImprimirNombre {
         System.out.println(" 1 para Imprimir el nombre ");
         System.out.println(" 2 para tabla de multiplicar ");
         System.out.println(" 3 para Calcule la media ");
+        System.out.println(" 4 para el Tablero de ajedrez ");
         Scanner sc = new Scanner(System.in);
         int dato=sc.nextInt();
 
@@ -29,6 +30,10 @@ public class ImprimirNombre {
             case 3 :
                 int cant=Input.get_int("Digite la cantidad de valores ");
                 Input.print("Promedio de valores "+promedio(cant));
+                break;
+
+            case 4 :
+                ajedrez();
                 break;
 
         }
@@ -76,6 +81,40 @@ public class ImprimirNombre {
     }
 
 
-
+    public static void ajedrez()
+    {
+        for(int j=0; j<10; j++)
+        {
+            if(j%2==0)
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    if (i % 2 == 0)
+                    {
+                        System.out.print("██");
+                    }
+                    else
+                    {
+                        System.out.print("  ");
+                    }
+                }
+                System.out.println();
+            }
+            else
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    if (i % 2 == 0)
+                    {
+                        System.out.print("  ");
+                    } else
+                    {
+                        System.out.print("██");
+                    }
+                }
+                System.out.println();
+            }
+        }
+    }
 
 }
